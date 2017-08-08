@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nonet_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <TextView
+        style="@style/MultipleStatusView.Content"
+        android:drawableTop="@drawable/ic_dialog_mobile_network"
+        android:id="@+id/tvNoNet"
+        android:drawablePadding="20dp"
+        android:text="@string/no_network_view_hint"/>
+</LinearLayout>

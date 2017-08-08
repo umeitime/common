@@ -1,0 +1,342 @@
+[
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_done_button.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_done_button.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/item_normal.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/item_normal.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/photo_selector_list_dir_item.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/photo_selector_list_dir_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/view_toolbar.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/view_toolbar.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/activity_selectpic_list.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/activity_selectpic_list.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_search_view.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/error_view.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/error_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/loading_view.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/loading_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_action.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_time_title_view.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_time_title_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/pop_citypicker.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/pop_citypicker.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/item_material.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/item_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/activity_brower.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/activity_brower.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_template_media.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/activity_base_listview.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/activity_base_listview.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/view_line.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/view_line.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/empty_view.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/empty_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/trm_item_popup_menu_list.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/trm_item_popup_menu_list.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/include_selectpic_bottom.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/include_selectpic_bottom.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_year_label_text_view.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_year_label_text_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/dialog_loading.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/dialog_loading.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/activity_base_listview_notoolbar.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/activity_base_listview_notoolbar.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/quick_view_load_more.xml",
+        "source": "/Users/hujunwei/.android/build-cache/9e5db64b8d84709b224b14211bea6d4f22ba3a77/output/res/layout/quick_view_load_more.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_date_picker_view_animator.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_date_picker_view_animator.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_date_picker_selected_date.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_date_picker_selected_date.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_date_picker_header_view.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_date_picker_header_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_date_picker_dialog.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/trm_popup_menu.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/trm_popup_menu.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/nonet_view.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/nonet_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/widget_pull_to_refresh_footer.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/widget_pull_to_refresh_footer.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_time_header_label.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_time_header_label.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/round_message_view.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/round_message_view.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/include_selectpic_dirlist.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/include_selectpic_dirlist.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_navigation_item.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/mdtp_time_picker_dialog.xml",
+        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout/mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/item_pic.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/bundles/debug/res/layout/item_pic.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/androidTest/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    }
+]

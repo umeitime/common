@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/down_enter.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/src/main/res/anim/down_enter.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/down_out.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/src/main/res/anim/down_out.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/design_fab_in.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/push_bottom_in.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/src/main/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/trm_popup_exit.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/src/main/res/anim/trm_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/design_fab_out.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/Users/hujunwei/.android/build-cache/c6b7e3cb43db300910147cb3083451cd36eb8012/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/push_bottom_out.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/src/main/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/trm_popup_enter.xml",
+        "source": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/src/main/res/anim/trm_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/anim/design_bottom_sheet_slide_in.xml"
+    }
+]
