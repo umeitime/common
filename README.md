@@ -12,7 +12,7 @@
 
 个人作品：[优美时光](http://app.flyme.cn/apps/public/detail?package_name=me.umeitimes.act.www)、[素笺](http://app.flyme.cn/apps/public/detail?package_name=com.umeitime.sujian)、[追呗](http://app.flyme.cn/apps/public/detail?package_name=com.izhuibei.android)、
 
-新浪微博: [文艺暖阳](http://weibo.com/pancn)
+新浪微博：[文艺暖阳](http://weibo.com/pancn)
 
 License
 --
