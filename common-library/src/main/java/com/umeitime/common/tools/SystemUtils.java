@@ -1,7 +1,9 @@
 package com.umeitime.common.tools;
 
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
-
 /**
  * @author June
  * @date 2017/5/31
@@ -147,5 +149,12 @@ public class SystemUtils {
      */
     public static String getDisplay() {
         return Build.DISPLAY;
+    }
+
+    /**
+     * 通知图库更新
+     */
+    public static void updateGallery(Context context, String path){
+        context.sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, Uri.parse("file://"+path)));
     }
 }
