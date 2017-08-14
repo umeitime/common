@@ -29,7 +29,7 @@ task clean(type: Delete) {
 }
 
 ext {
-    applicationId = "com.umeitime.common"
+    applicationId = "com.umeitime.lolit"
     versionCode = 1
     versionName = "1.0"
     minSdkVersion = 17
