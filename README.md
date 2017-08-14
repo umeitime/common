@@ -10,15 +10,7 @@
 
 个人邮箱：jayfans@qq.com
 
-##软件
-
-[优美时光](http://app.flyme.cn/apps/public/detail?package_name=me.umeitimes.act.www)
-
-[素笺](http://app.flyme.cn/apps/public/detail?package_name=com.umeitime.sujian)
-
-[追呗](http://app.flyme.cn/apps/public/detail?package_name=com.izhuibei.android)
-
-[新浪微博](http://weibo.com/pancn)
+个人作品：[优美时光](http://app.flyme.cn/apps/public/detail?package_name=me.umeitimes.act.www)、[素笺](http://app.flyme.cn/apps/public/detail?package_name=com.umeitime.sujian)、[追呗](http://app.flyme.cn/apps/public/detail?package_name=com.izhuibei.android)、[新浪微博](http://weibo.com/pancn)
 
 License
 --
