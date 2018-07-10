@@ -31,6 +31,11 @@
     <string msgid="8327182090226828481" name="mdtp_select_minutes">"選取分鐘數"</string>
     <string msgid="2603330600102539372" name="mdtp_select_year">"選取年份"</string>
     <string msgid="6963340404644587098" name="mdtp_year_picker_description">"年份清單"</string>
+    <string name="recycler_swipe_click_load_more">點擊加載更多</string>
+    <string name="recycler_swipe_data_empty">暫時沒有數據</string>
+    <string name="recycler_swipe_load_error">加載出錯啦，請稍後重試</string>
+    <string name="recycler_swipe_load_more_message">正在加載更多數據，請稍後</string>
+    <string name="recycler_swipe_more_not">沒有更多數據啦</string>
     <string msgid="146198913615257606" name="search_menu_title">"搜尋"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

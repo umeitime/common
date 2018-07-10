@@ -6,8 +6,6 @@ import android.widget.Toast;
 /**
  * @author June
  * @date 2017/3/28
- * @email jayfans@qq.com
- * @packagename wanglijun.vip.androidutils
  * @description Toast封装类
  */
 public class ToastUtil {

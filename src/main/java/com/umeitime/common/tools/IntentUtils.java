@@ -4,9 +4,12 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
+import android.support.v4.content.FileProvider;
 import android.text.TextUtils;
 
 import com.tencent.tauth.Tencent;
+import com.umeitime.common.base.BrowserActivity;
 
 import java.io.File;
 
@@ -18,7 +21,9 @@ import java.io.File;
 public class IntentUtils {
     public static final int requestCode_photo = 200;
     //社交APP包名
+    public static final String WECHAT_PKG = "com.tencent.mm";
     public static final String SINA_PKG = "com.sina.weibo";
+    public static final String QZONE_PKG = "com.qzone";
     public static final String QQ_PKG = "com.tencent.mobileqq";
     public static final String XIMA_PKG = "com.ximalaya.ting.android";
     public static final String MUSIC163_PKG = "com.netease.cloudmusic";
@@ -30,7 +35,9 @@ public class IntentUtils {
     public static final String doubanPageUrl = "https://www.douban.com/people/";
     public static final String musicPageUrl = "http://music.163.com/m/user/home?id=";
     public static final String musicAlbumUrl = "http://music.163.com/album/";
+    public static final String musicArtistUrl = "http://music.163.com/artist";
     public static final String weiboPageUrl = "http://m.weibo.com/u/";
+    public static final String weiboPage2Url = "https://weibo.com/u/";
     public static final String weiboUrl = "http://m.weibo.cn/status/";
 
     /**
@@ -58,11 +65,24 @@ public class IntentUtils {
         Tencent mTencent = Tencent.createInstance(QQ_APP_ID, context);
         mTencent.startWPAConversation(context, qq, "");
     }
-
+    public static void openVideo(Context context, String url){
+        Uri uri = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setDataAndType(uri, "video/mp4");
+        context.startActivity(intent);
+    }
     public static void openWebUrl(Context mContext, String url) {
         if (StringUtils.isEmpty(url)) return;
         if (url.startsWith(musicAlbumUrl) && AppUtils.isAppInstalled(mContext, MUSIC163_PKG)) {
             url = "orpheus://album/" + url.replace(musicAlbumUrl, "");
+            openIntent(mContext, url);
+        }else if(url.startsWith(musicArtistUrl) && AppUtils.isAppInstalled(mContext, MUSIC163_PKG)){
+            String strs[] = url.split("\\?");
+            String id;
+            if(strs.length>1){
+                id = strs[1].replace("id=","");
+                url = "orpheus://artist/" + id;
+            }
             openIntent(mContext, url);
         } else if (url.startsWith(musicPageUrl) && AppUtils.isAppInstalled(mContext, MUSIC163_PKG)) {
             url = "orpheus://artist/" + url.replace(musicPageUrl, "");
@@ -99,8 +119,13 @@ public class IntentUtils {
         } else if (url.contains(weiboPageUrl) && AppUtils.isAppInstalled(mContext, SINA_PKG)) {
             url = "sinaweibo://userinfo?uid=" + url.replace(weiboPageUrl, "");
             openIntent(mContext, url);
-        } else {
+        } else if (url.contains(weiboPage2Url) && AppUtils.isAppInstalled(mContext, SINA_PKG)) {
+            url = "sinaweibo://userinfo?uid=" + url.replace(weiboPage2Url, "");
             openIntent(mContext, url);
+        } else {
+            Intent intent = new Intent(mContext, BrowserActivity.class);
+            intent.putExtra("url", url);
+            mContext.startActivity(intent);
         }
     }
 
@@ -139,10 +164,19 @@ public class IntentUtils {
             return false;
         }
     }
-
-    public static void openPic(Context context, File picFile) {
+    //"com.umeitime.sujian.fileprovider"
+    public static void openPic(Context context, File picFile, String authority) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setDataAndType(Uri.fromFile(picFile), "image/*");
+        Uri uri;
+        // 最后通知图库更新
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            // 适配android7.0 ，不能直接访问原路径
+            // 需要对intent 授权
+            uri = FileProvider.getUriForFile(context, authority, picFile);
+        } else {
+            uri = Uri.fromFile(picFile);
+        }
+        intent.setDataAndType(uri, "image/*");
         context.startActivity(intent);
     }
 

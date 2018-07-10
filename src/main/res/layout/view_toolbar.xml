@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/toolbar"
-    style="@style/ToolBarStyle">
-</android.support.v7.widget.Toolbar>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlAppBar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/top_bg"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/mainText"
+            android:textSize="17dp" />
+
+    </android.support.v7.widget.Toolbar>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/line_color" />
+    <TextView
+        android:id="@+id/tvRight"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentRight="true"
+        android:background="?actionBarItemBackground"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="right"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        android:visibility="gone"/>
+</RelativeLayout>

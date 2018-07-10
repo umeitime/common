@@ -12,12 +12,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
+    private static final int[] ATTRS = new int[]{android.R.attr.listDivider};
     private Paint mPaint;
     private Drawable mDivider;
     private int mDividerHeight = 2;//分割线高度，默认为1px
     private int mOrientation;//列表的方向：LinearLayoutManager.VERTICAL或LinearLayoutManager.HORIZONTAL
-    private static final int[] ATTRS = new int[]{android.R.attr.listDivider};
-
+    private boolean mIsShowBottomDivider=false;
     /**
      * 默认分割线：高度为2px，颜色为灰色
      *
@@ -69,7 +69,31 @@ public class RecyclerViewDivider extends RecyclerView.ItemDecoration {
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
         super.getItemOffsets(outRect, view, parent, state);
-        outRect.set(0, 0, 0, mDividerHeight);
+//        outRect.set(0, 0, 0, mDividerHeight);
+//        if (mDivider == null) {
+//            outRect.set(0, 0, 0, 0);
+//            return;
+//        }
+        if (mOrientation == LinearLayoutManager.VERTICAL) {
+            //parent.getChildCount() 不能拿到item的总数
+            //https://stackoverflow.com/questions/29666598/android-recyclerview-finding-out-first
+            // -and-last-view-on-itemdecoration
+            int lastPosition = state.getItemCount() - 1;
+            int position = parent.getChildAdapterPosition(view);
+            if (mIsShowBottomDivider || position < lastPosition) {
+                outRect.set(0, 0, 0, mDividerHeight);
+            } else {
+                outRect.set(0, 0, 0, 0);
+            }
+        } else {
+            int lastPosition = state.getItemCount() - 1;
+            int position = parent.getChildAdapterPosition(view);
+            if (mIsShowBottomDivider || position < lastPosition) {
+                outRect.set(0, 0, mDividerHeight, 0);
+            } else {
+                outRect.set(0, 0, 0, 0);
+            }
+        }
     }
 
     //绘制分割线

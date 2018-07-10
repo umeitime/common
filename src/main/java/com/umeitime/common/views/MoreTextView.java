@@ -18,17 +18,15 @@ import com.umeitime.common.R;
 import com.umeitime.common.tools.DisplayUtils;
 
 public class MoreTextView extends LinearLayout{
+	public int defaultTextColor = Color.BLACK;
+	public int defaultTextSize = 14;
+	public int defaultLine = 2;
 	protected TextView contentView;
 	protected ImageView expandView;
-	
 	protected int textColor;
 	protected float textSize;
 	protected int maxLine;
 	protected String text;
-	
-	public int defaultTextColor = Color.BLACK;
-	public int defaultTextSize = 14;
-	public int defaultLine = 2;
 
 	public MoreTextView(Context context, AttributeSet attrs) {
 		super(context, attrs);
@@ -38,10 +36,10 @@ public class MoreTextView extends LinearLayout{
 	}
 
 	protected void initWithAttrs(Context context, AttributeSet attrs) {
-		TypedArray a = context.obtainStyledAttributes(attrs,  
+		TypedArray a = context.obtainStyledAttributes(attrs,
                 R.styleable.MoreTextStyle);
-		int textColor = a.getColor(R.styleable.MoreTextStyle_textColor,  
-				defaultTextColor);  
+		int textColor = a.getColor(R.styleable.MoreTextStyle_textColor,
+				defaultTextColor);
 		textSize = a.getDimensionPixelSize(R.styleable.MoreTextStyle_textSize, defaultTextSize);
 		maxLine = a.getInt(R.styleable.MoreTextStyle_maxLine, defaultLine);
 		text = a.getString(R.styleable.MoreTextStyle_text);
@@ -56,13 +54,13 @@ public class MoreTextView extends LinearLayout{
 		contentView.setLineSpacing(0,1.3f);
 		addView(contentView, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 		expandView = new ImageView(getContext());
-		int padding = dip2px(getContext(), 5);
+		int padding = DisplayUtils.dip2px(getContext(), 5);
 		expandView.setPadding(padding, padding, padding, padding);
 		expandView.setImageResource(R.drawable.ic_expand);
 		LayoutParams llp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		addView(expandView, llp);
 	}
-	
+
 	protected void bindTextView(int color,float size,final int line,String text){
 		contentView.setTextColor(color);
 		contentView.setTextSize(TypedValue.COMPLEX_UNIT_PX, size);
@@ -76,11 +74,11 @@ public class MoreTextView extends LinearLayout{
 					contentView.setHeight(contentView.getLineHeight() * line);
 				}
 				expandView.setVisibility(contentView.getLineCount() > line ? View.VISIBLE : View.GONE);
-				
+
 			}
 		});
 	}
-	
+
 	protected void bindListener(){
 		setOnClickListener(new OnClickListener() {
 			boolean isExpand;
@@ -117,17 +115,7 @@ public class MoreTextView extends LinearLayout{
 		});
 	}
 
-	public TextView getTextView(){
-		return contentView;
-	}
-	
 	public void setText(CharSequence charSequence){
-//		contentView.setText(charSequence);
 		bindTextView(0xff444444, DisplayUtils.dip2px(getContext(),14),2,charSequence.toString());
 	}
-	
-	public static int dip2px(Context context, float dipValue){              
-        final float scale = context.getResources().getDisplayMetrics().density;                   
-        return (int)(dipValue * scale + 0.5f);           
-    }      
 }

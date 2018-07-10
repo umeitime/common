@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="reference|color" name="album.element.color"/>
+    <attr format="reference" name="toolbar"/>
+    <color name="C03">#ffe8e8eb</color>
+    <color name="C03_dark">#ffd1d1d1</color>
+    <color name="C04">#ffffffff</color>
+    <color name="C05">#ffaaaaaa</color>
+    <color name="C15">#ff646464</color>
+    <color name="C16">#ffc8c8c8</color>
+    <color name="FC4">#ff828282</color>
+    <color name="FC5">#ff969696</color>
+    <color name="FC6">#ffaaaaaa</color>
+    <color name="FC9">#ff3462ff</color>
+    <color name="background_normal">#ffffffff</color>
+    <color name="background_normal_press">#10000000</color>
     <color name="black">#000000</color>
     <color name="black_4c">#4c000000</color>
     <color name="black_66">#66000000</color>
     <color name="black_99">#99000000</color>
     <color name="border_color">#228adf98</color>
-    <color name="colorAccent">#02bbfe</color>
-    <color name="colorPrimary">#02bbfe</color>
-    <color name="colorPrimaryDark">#02bbfe</color>
+    <color name="colorAccent">#40bd55</color>
+    <color name="colorPrimary">#40bd55</color>
+    <color name="colorPrimaryDark">#40bd55</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_828282">#828282</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_text_3b3b3b">#3b3b3b</color>
+    <color name="color_text_969696">#969696</color>
     <color name="gray_text">#ffaaaaaa</color>
     <color name="icon_color">#909090</color>
-    <color name="line_color">#ffe0e0e0</color>
+    <color name="line_color">#ffdddddd</color>
     <color name="link">#ff507daf</color>
+    <color name="mainText">#ff222222</color>
+    <color name="mainText2">#ff666666</color>
+    <color name="mainText3">#ff999999</color>
     <color name="main_text_color">#3b3b3b</color>
-    <color name="sujian_blue">#02bbfe</color>
-    <color name="sujian_blue_button_press">#0299cf</color>
+    <color name="sujian_blue">#40bd55</color>
+    <color name="sujian_blue_button_press">#01862b</color>
     <color name="tabText">#888</color>
+    <color name="text_title_color_day">#ff444444</color>
     <color name="text_warning">#fff65d5d</color>
+    <color name="top_bg">#fffafafa</color>
     <color name="transparent">#00000000</color>
     <color name="white">#fff</color>
     <color name="white_33">#33ffffff</color>
+    <color name="white_pressed">#55ffffff</color>
     <color name="window_background">#fff0f0f4</color>
     <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
     <declare-styleable name="CollapsibleTextView"><attr format="color" name="suffixColor"/><attr format="integer" name="collapsedLines"/><attr format="string" name="collapsedText"/><attr format="string" name="expandedText"/><attr format="boolean" name="suffixTrigger"/></declare-styleable>
@@ -30,11 +57,24 @@
     <declare-styleable name="MultipleStatusView"><attr format="reference" name="loadingView"/><attr format="reference" name="errorView"/><attr format="reference" name="emptyView"/><attr format="reference" name="noNetworkView"/><attr format="reference" name="contentView"/></declare-styleable>
     <declare-styleable name="PageBottomTabLayout"><attr format="dimension" name="tabPaddingTop"/><attr format="dimension" name="tabPaddingBottom"/></declare-styleable>
     <declare-styleable name="RangeBar"><attr format="color" name="range_background"/><attr format="integer" name="range_num"/><attr format="integer" name="range_checked"/><attr format="color" name="thumb_color"/><attr format="dimension" name="thumb_radius"/><attr format="dimension" name="vertical_line_height"/><attr format="dimension" name="vertical_line_width"/><attr format="dimension" name="horizontal_line_height"/></declare-styleable>
+    <declare-styleable name="SmileView"><attr format="color" name="smileColor"/></declare-styleable>
     <declare-styleable name="UpdateAppNumberProgressBar"><attr format="integer" name="progress_current"/><attr format="integer" name="progress_max"/><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility">
             <enum name="visible" value="0"/>
             <enum name="invisible" value="1"/>
         </attr></declare-styleable>
-    <dimen name="item_divide_height">10.0dip</dimen>
+    <dimen name="actionbar_height">45dp</dimen>
+    <dimen name="album_item_height">72dp</dimen>
+    <dimen name="font_20_px">10.0sp</dimen>
+    <dimen name="font_22_px">11.0sp</dimen>
+    <dimen name="font_24_px">12.0sp</dimen>
+    <dimen name="font_26_px">13.0sp</dimen>
+    <dimen name="font_28_px">14.0sp</dimen>
+    <dimen name="font_30_px">15.0sp</dimen>
+    <dimen name="font_32_px">16.0sp</dimen>
+    <dimen name="font_34_px">17.0sp</dimen>
+    <dimen name="font_36_px">18.0sp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
+    <dimen name="item_divide_height">5.0dip</dimen>
     <dimen name="line_height">0.4dp</dimen>
     <dimen name="material_bottom_navigation_active_item_max_width">168dp</dimen>
     <dimen name="material_bottom_navigation_active_text_size">14sp</dimen>
@@ -45,6 +85,9 @@
     <dimen name="material_bottom_navigation_margin">8dp</dimen>
     <dimen name="material_bottom_navigation_shadow_height">1dp</dimen>
     <dimen name="material_bottom_navigation_text_size">12sp</dimen>
+    <dimen name="media_grid_size">48dp</dimen>
+    <dimen name="media_grid_spacing">4dp</dimen>
+    <drawable name="default_pic">#eeeeee</drawable>
     <item name="content_view" type="id"/>
     <item name="empty_retry_view" type="id"/>
     <item name="empty_view" type="id"/>
@@ -61,10 +104,13 @@
     <string name="app_name">common</string>
     <string name="empty_view_hint">暂无数据</string>
     <string name="error_view_hint">加载失败</string>
+    <string name="file_provider_authorities">com.umeitime.sujian</string>
     <string name="loading">加载中...</string>
     <string name="no_network_view_hint">=•ω•= 没网怎么刷，来重试哈~</string>
     <string name="nonet">=•ω•= 没网怎么刷，快去抢救ta~</string>
     <string name="noserver">(>_&lt;) 服务器异常~</string>
+    <string name="submit">提交</string>
+    <string name="wait_downtask_over">请等待当前下载任务结束</string>
     <style name="BaseToolBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:background">@color/colorAccent</item>
         <item name="android:padding">0.0dip</item>
@@ -79,6 +125,27 @@
         <item name="titleTextAppearance">@style/ToolbarTitleText</item>
         <item name="theme">@style/Toolbar.Dark</item>
     </style>
+    <style name="BaseToolBarTheme_White" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="title">@null</item>
+        <item name="android:navigationIcon">@drawable/ic_toolbar_back_gray_24dp</item>
+        <item name="elevation">0.0dip</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionOverflowMenuStyle">@style/PopupMenu</item>
+        <item name="overlapAnchor">false</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item>
+    </style>
+    <style name="Base_Btn_login">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/txt_select_white</item>
+        <item name="android:background">@drawable/main_theme_color_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">135px</item>
+        <item name="android:singleLine">true</item>
+    </style>
     <style name="BottomAnim" parent="@android:style/Animation">
         <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
         <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
@@ -89,7 +156,16 @@
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimEnabled" ns1:ignore="NewApi">true</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+    <style name="DialogLoading" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.5</item>
     </style>
     <style name="DialogStype" parent="@android:style/Animation">
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
@@ -99,12 +175,17 @@
         <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
     </style>
+    <style name="Line_Vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
     <style name="MultipleStatusView"/>
     <style name="MultipleStatusView.Content">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:textColor">#a9b7b7</item>
+        <item name="android:textColor">@color/gray_text</item>
         <item name="android:textSize">14dp</item>
     </style>
     <style name="PopupMenu" parent="@style/Widget.AppCompat.PopupMenu.Overflow">
@@ -119,7 +200,20 @@
         <item name="android:windowEnterAnimation">@anim/trm_popup_enter</item>
         <item name="android:windowExitAnimation">@anim/trm_popup_exit</item>
     </style>
-    <style name="ToolBarStyle" parent="@style/BaseToolBarTheme"/>
+    <style name="Text_Style_F25">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+    <style name="Text_Style_F27">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#3b3b3b</item>
+    </style>
+    <style name="Text_Style_F28">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+    <style name="ToolBarStyle" parent="@style/BaseToolBarTheme_White"/>
+    <style name="ToolBarStyle_White" parent="@style/BaseToolBarTheme_White"/>
     <style name="Toolbar.Dark" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         </style>
     <style name="ToolbarTitleText">
@@ -141,12 +235,5 @@
 
         <item name="progress_reached_bar_height">4dp</item>
         <item name="progress_unreached_bar_height">3dp</item>
-    </style>
-    <style name="loading_dialog" parent="android:style/Theme.Dialog">
-        <item name="android:windowFrame">@null</item>
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@drawable/corner_f4</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowContentOverlay">@null</item>
     </style>
 </resources>

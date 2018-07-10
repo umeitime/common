@@ -10,5 +10,19 @@
     <dimen name="material_bottom_navigation_shadow_height">1dp</dimen>
     <dimen name="material_bottom_navigation_text_size">12sp</dimen>
     <dimen name="line_height">0.4dp</dimen>
-    <dimen name="item_divide_height">10.0dip</dimen>
+    <dimen name="item_divide_height">5.0dip</dimen>
+    <dimen name="media_grid_size">48dp</dimen>
+    <dimen name="media_grid_spacing">4dp</dimen>
+    <dimen name="album_item_height">72dp</dimen>
+    <dimen name="actionbar_height">45dp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
+    <dimen name="font_20_px">10.0sp</dimen>
+    <dimen name="font_22_px">11.0sp</dimen>
+    <dimen name="font_24_px">12.0sp</dimen>
+    <dimen name="font_26_px">13.0sp</dimen>
+    <dimen name="font_28_px">14.0sp</dimen>
+    <dimen name="font_30_px">15.0sp</dimen>
+    <dimen name="font_32_px">16.0sp</dimen>
+    <dimen name="font_34_px">17.0sp</dimen>
+    <dimen name="font_36_px">18.0sp</dimen>
 </resources>

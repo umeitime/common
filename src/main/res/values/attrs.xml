@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <attr name="toolbar" format="reference"/>
+    <attr name="album.element.color" format="reference|color"/>
     <declare-styleable name="MultipleStatusView">
         <attr name="loadingView" format="reference" />
         <attr name="errorView" format="reference" />
@@ -8,7 +9,9 @@
         <attr name="noNetworkView" format="reference" />
         <attr name="contentView" format="reference" />
     </declare-styleable>
-
+    <declare-styleable name="SmileView">
+        <attr name="smileColor" format="color" />
+    </declare-styleable>
     <declare-styleable name="RangeBar">
         <attr name="range_background" format="color" />
         <attr name="range_num" format="integer" />

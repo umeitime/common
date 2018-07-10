@@ -1,5 +1,7 @@
 package com.umeitime.common.tools;
 
+import android.content.Context;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -428,5 +430,10 @@ public class FileUtils {
             e.printStackTrace();
         }
         return size;
+    }
+
+    public static File getSaveFile(Context context) {
+        File file = new File(context.getFilesDir(), "pic.jpg");
+        return file;
     }
 }

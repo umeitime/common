@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#02bbfe</color>
-    <color name="colorPrimaryDark">#02bbfe</color>
-    <color name="sujian_blue">#02bbfe</color>
-    <color name="sujian_blue_button_press">#0299cf</color>
-    <color name="colorAccent">#02bbfe</color>
+    <color name="colorPrimary">#40bd55</color>
+    <color name="colorPrimaryDark">#40bd55</color>
+    <color name="sujian_blue">#40bd55</color>
+    <color name="sujian_blue_button_press">#01862b</color>
+    <color name="colorAccent">#40bd55</color>
+    <color name="top_bg">#fffafafa</color>
     <color name="window_background">#fff0f0f4</color>
     <color name="text_warning">#fff65d5d</color>
     <color name="gray_text">#ffaaaaaa</color>
-    <color name="line_color">#ffe0e0e0</color>
+    <color name="background_normal">#ffffffff</color>
+    <color name="background_normal_press">#10000000</color>
+    <color name="line_color">#ffdddddd</color>
     <color name="transparent">#00000000</color>
     <color name="main_text_color">#3b3b3b</color>
     <color name="tabText">#888</color>
     <color name="icon_color">#909090</color>
     <color name="white">#fff</color>
+    <color name="white_pressed">#55ffffff</color>
     <color name="border_color">#228adf98</color>
     <color name="link">#ff507daf</color>
     <color name="white_33">#33ffffff</color>
@@ -21,4 +25,25 @@
     <color name="black_4c">#4c000000</color>
     <color name="black_66">#66000000</color>
     <color name="black">#000000</color>
+    <color name="mainText3">#ff999999</color>
+    <color name="mainText2">#ff666666</color>
+    <color name="mainText">#ff222222</color>
+    <color name="C03">#ffe8e8eb</color>
+    <color name="C03_dark">#ffd1d1d1</color>
+    <color name="C04">#ffffffff</color>
+    <color name="C05">#ffaaaaaa</color>
+    <color name="C15">#ff646464</color>
+    <color name="C16">#ffc8c8c8</color>
+    <color name="FC4">#ff828282</color>
+    <color name="FC5">#ff969696</color>
+    <color name="FC6">#ffaaaaaa</color>
+    <color name="FC9">#ff3462ff</color>
+    <color name="color_1e1e1e">#1e1e1e</color>
+    <color name="color_555555">#555555</color>
+    <color name="color_828282">#828282</color>
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <color name="color_text_969696">#969696</color>
+    <color name="text_title_color_day">#ff444444</color>
+    <color name="color_text_3b3b3b">#3b3b3b</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
 </resources>

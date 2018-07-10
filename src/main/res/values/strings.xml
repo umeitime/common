@@ -6,4 +6,7 @@
     <string name="nonet">=•ω•= 没网怎么刷，快去抢救ta~</string>
     <string name="noserver">(&gt;_&lt;) 服务器异常~</string>
     <string name="loading">加载中...</string>
+    <string name="submit">提交</string>
+    <string name="file_provider_authorities">com.umeitime.sujian</string>
+    <string name="wait_downtask_over">请等待当前下载任务结束</string>
 </resources>

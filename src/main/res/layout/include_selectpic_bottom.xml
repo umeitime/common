@@ -12,14 +12,14 @@
         android:background="@color/line_color" />
 
     <RelativeLayout
-        android:id="@+id/rl_select"
+        android:id="@+id/rlSelect"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
         <TextView
-            android:id="@+id/tv_dir_name"
+            android:id="@+id/tvDirName"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
@@ -35,20 +35,20 @@
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="3dp"
-            android:layout_toRightOf="@+id/tv_dir_name"
+            android:layout_toRightOf="@+id/tvDirName"
             android:src="@drawable/ic_spinner" />
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/tv_total_count"
+        android:id="@+id/tvSelectCount"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:gravity="center"
-        android:visibility="gone"
-        android:text="0/6"
         android:layout_marginRight="20dp"
-        android:textColor="#999"
+        android:alpha="0.45"
+        android:gravity="center"
+        android:text="使用"
+        android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 </RelativeLayout>

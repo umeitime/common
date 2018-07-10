@@ -26,9 +26,9 @@ public class PermissionUtils {
                 == PackageManager.PERMISSION_GRANTED) {
             return true;
         } else {
-            ActivityCompat.requestPermissions((Activity)activity,
-                    new String[]{Manifest.permission.READ_PHONE_STATE},
-                    MY_PERMISSIONS_REQUEST_READ_PHONE_STATE);
+//            ActivityCompat.requestPermissions((Activity)activity,
+//                    new String[]{Manifest.permission.READ_PHONE_STATE},
+//                    MY_PERMISSIONS_REQUEST_READ_PHONE_STATE);
             return false;
         }
     }

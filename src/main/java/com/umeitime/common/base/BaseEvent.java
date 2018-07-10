@@ -18,6 +18,9 @@ public class BaseEvent {
     public static class LoginOutEvent{
 
     }
+    public static class LoginSuccess{
+
+    }
     public static class TokenExpireEvent{
 
     }
@@ -27,5 +30,16 @@ public class BaseEvent {
 
     public static class UpdateUserInfo {
 
+    }
+    public static class ModifyNameEvent {
+        String name;
+
+        public ModifyNameEvent(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
     }
 }

@@ -13,6 +13,7 @@ import java.text.DecimalFormat;
  */
 
 public class NumberUtils {
+
     /**
      * 保留一位小数
      *
@@ -67,6 +68,25 @@ public class NumberUtils {
     public static double roundingNumber(float number, int scale, RoundingMode roundingMode) {
         BigDecimal b = new BigDecimal(number);
         return b.setScale(scale, roundingMode).doubleValue();
+    }
+    /**
+     * 格式化时间单元(时、分、秒)
+     *    小于10的话在十位上补0，如传入2的话返回02，传入12的话返回12
+     * @param time
+     *                  播放时间
+     * @return 格式化后的时间,如(02)
+     */
+    public static String formatTimeUnit(long time) {
+        return time < 10 ? "0" + time :  time+"";
+    }
+    /**
+     * @param format_time
+     * @return (时:分:秒)格式的时间格式，如(00:03:00)
+     */
+    public static String formatTimeString(long format_time) {
+        String minutes=formatTimeUnit(format_time / 60); //分
+        String seconds=formatTimeUnit(format_time % 60); //秒
+        return  minutes+ ":" + seconds;
     }
 
 }

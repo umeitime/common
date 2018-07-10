@@ -5,7 +5,7 @@ import com.umeitime.common.R;
 import com.umeitime.common.base.BaseCommonValue;
 import com.umeitime.common.base.BaseEvent;
 import com.umeitime.common.http.ApiException;
-import com.umeitime.common.http.JsonResponse;
+import com.umeitime.common.http.entry.JsonResponse;
 import com.umeitime.common.tools.NetWorkUtils;
 
 import de.greenrobot.event.EventBus;
@@ -41,6 +41,8 @@ public abstract class ApiCallback<T> extends Subscriber<JsonResponse<T>> {
         }else{
             if(!NetWorkUtils.checkNetwork(AppContext.getInstance().getApplicationContext())) {
                 onFailure(AppContext.getInstance().getApplicationContext().getString(R.string.nonet));
+            }else{
+                onFailure(e.toString());
             }
         }
         onFinish();

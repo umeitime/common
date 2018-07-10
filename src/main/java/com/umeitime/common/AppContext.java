@@ -7,8 +7,11 @@ import android.content.Context;
  */
 public class AppContext {
     private static AppContext instance;
-
     private Context applicationContext;
+
+    public AppContext(Context applicationContext) {
+        this.applicationContext = applicationContext;
+    }
 
     public static AppContext getInstance() {
         if (instance == null) {
@@ -16,14 +19,6 @@ public class AppContext {
         }
 
         return instance;
-    }
-
-    public Context getApplicationContext() {
-        return applicationContext;
-    }
-
-    public AppContext(Context applicationContext) {
-        this.applicationContext = applicationContext;
     }
 
     /**
@@ -38,6 +33,10 @@ public class AppContext {
 
     public static boolean isInitialized() {
         return (instance != null);
+    }
+
+    public Context getApplicationContext() {
+        return applicationContext;
     }
 
 }

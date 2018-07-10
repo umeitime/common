@@ -15,24 +15,17 @@ import com.bumptech.glide.load.resource.bitmap.BitmapResource;
 
 public class RoundedCornersTransformation implements Transformation<Bitmap> {
 
-  public enum CornerType {
-    ALL,
-    TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT,
-    TOP, BOTTOM, LEFT, RIGHT,
-    OTHER_TOP_LEFT, OTHER_TOP_RIGHT, OTHER_BOTTOM_LEFT, OTHER_BOTTOM_RIGHT,
-    DIAGONAL_FROM_TOP_LEFT, DIAGONAL_FROM_TOP_RIGHT
-  }
-
   private BitmapPool mBitmapPool;
   private int mRadius;
   private int mDiameter;
   private int mMargin;
   private CornerType mCornerType;
-
+  public RoundedCornersTransformation(Context context, int radius) {
+    this(context, radius, 0, CornerType.ALL);
+  }
   public RoundedCornersTransformation(Context context, int radius, int margin) {
     this(context, radius, margin, CornerType.ALL);
   }
-
   public RoundedCornersTransformation(BitmapPool pool, int radius, int margin) {
     this(pool, radius, margin, CornerType.ALL);
   }
@@ -235,5 +228,13 @@ public class RoundedCornersTransformation implements Transformation<Bitmap> {
   @Override public String getId() {
     return "RoundedTransformation(radius=" + mRadius + ", margin=" + mMargin + ", diameter="
         + mDiameter + ", cornerType=" + mCornerType.name() + ")";
+  }
+
+  public enum CornerType {
+    ALL,
+    TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT,
+    TOP, BOTTOM, LEFT, RIGHT,
+    OTHER_TOP_LEFT, OTHER_TOP_RIGHT, OTHER_BOTTOM_LEFT, OTHER_BOTTOM_RIGHT,
+    DIAGONAL_FROM_TOP_LEFT, DIAGONAL_FROM_TOP_RIGHT
   }
 }

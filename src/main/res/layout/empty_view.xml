@@ -2,12 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/empty_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:gravity="center"
+    >
     <TextView
-        style="@style/MultipleStatusView.Content"
         android:id="@+id/tvEmpty"
-        android:drawableTop="@drawable/ic_empty_zhihu"
-        android:gravity="center"
-        android:drawablePadding="12dp"
+        style="@style/MultipleStatusView.Content"
         android:text="@string/empty_view_hint"/>
 </RelativeLayout>

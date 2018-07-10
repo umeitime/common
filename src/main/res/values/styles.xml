@@ -7,7 +7,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_centerInParent">true</item>
-        <item name="android:textColor">#a9b7b7</item>
+        <item name="android:textColor">@color/gray_text</item>
         <item name="android:textSize">14dp</item>
     </style>
 
@@ -21,13 +21,22 @@
         <item name="android:windowExitAnimation">@android:anim/fade_out</item>
     </style>
 
+    <!--<style name="BottomDialog" parent="android:style/Theme.Dialog">-->
+        <!--<item name="android:windowFrame">@null</item>-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+        <!--<item name="android:backgroundDimEnabled">false</item>-->
+    <!--</style>-->
     <style name="BottomDialog" parent="android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimEnabled" tools:ignore="NewApi">true</item>
+        <item name="android:backgroundDimAmount">0.2</item>
     </style>
     <style name="BaseToolBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:background">@color/colorAccent</item>
@@ -44,6 +53,19 @@
         <item name="theme">@style/Toolbar.Dark</item>
     </style>
 
+    <style name="BaseToolBarTheme_White" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="title">@null</item>
+        <item name="android:navigationIcon">@drawable/ic_toolbar_back_gray_24dp</item>
+        <item name="elevation">0.0dip</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionOverflowMenuStyle">@style/PopupMenu</item>
+        <item name="overlapAnchor">false</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item>
+    </style>
+
     <style name="Toolbar.Dark" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         </style>
 
@@ -51,8 +73,8 @@
         <item name="overlapAnchor">false</item>
         <item name="android:background">@android:color/white</item>
     </style>
-    <style name="ToolBarStyle" parent="@style/BaseToolBarTheme" />
-
+    <style name="ToolBarStyle" parent="@style/BaseToolBarTheme_White" />
+    <style name="ToolBarStyle_White" parent="@style/BaseToolBarTheme_White" />
     <style name="ToolbarTitleText"  >
         <item name="android:textSize">17sp</item>
         <item name="android:textColor">@android:color/white</item>
@@ -68,12 +90,13 @@
     </style>
 
     <!-- 自定义loading dialog -->
-    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+    <style name="DialogLoading" parent="android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:windowBackground">@drawable/corner_f4</item>
+        <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.5</item>
     </style>
 
     <style name="DialogStype" parent="@android:style/Animation">
@@ -96,5 +119,32 @@
 
         <item name="progress_reached_bar_height">4dp</item>
         <item name="progress_unreached_bar_height">3dp</item>
+    </style>
+
+    <style name="Line_Vertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_height</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <style name="Text_Style_F25">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#828282</item>
+    </style>
+    <style name="Text_Style_F27">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#3b3b3b</item>
+    </style>
+    <style name="Text_Style_F28">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+    <style name="Base_Btn_login">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/txt_select_white</item>
+        <item name="android:background">@drawable/main_theme_color_button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">135px</item>
+        <item name="android:singleLine">true</item>
     </style>
 </resources>

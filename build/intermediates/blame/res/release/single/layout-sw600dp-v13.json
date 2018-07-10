@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/hujunwei/.android/build-cache/978e744aeff97a5318ad0b574d2904d0d7927164/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/layout-sw600dp-v13/mdtp_date_picker_dialog.xml",
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/materialdatetimepicker-2.3.0.aar/42c1080e24378ce095e155f1b5e59349/res/layout-sw600dp/mdtp_date_picker_dialog.xml"
     },
     {
-        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/sujian/common/build/intermediates/res/merged/release/layout-sw600dp-v13/mdtp_date_picker_dialog.xml",
-        "source": "/Users/hujunwei/.android/build-cache/d52d726a388f9496225fbe28086715eeeab178a3/output/res/layout-sw600dp/mdtp_date_picker_dialog.xml"
+        "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d1c789e29adc1bc5f97f2eb5d47f2131/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

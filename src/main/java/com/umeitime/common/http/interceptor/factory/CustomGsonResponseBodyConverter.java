@@ -5,7 +5,7 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.umeitime.common.base.BaseCommonValue;
 import com.umeitime.common.http.ApiException;
-import com.umeitime.common.http.HttpStatus;
+import com.umeitime.common.http.entry.HttpStatus;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

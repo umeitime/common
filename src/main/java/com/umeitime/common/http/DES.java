@@ -8,7 +8,6 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 import Decoder.BASE64Decoder;
 import Decoder.BASE64Encoder;
-
 /**
  DES加密介绍
       DES是一种对称加密算法，所谓对称加密算法即：加密和解密使用相同密钥的算法。DES加密算法出自IBM的研究，

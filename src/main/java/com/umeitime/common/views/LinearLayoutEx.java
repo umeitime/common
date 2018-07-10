@@ -6,6 +6,8 @@ import android.widget.LinearLayout;
 
 public class LinearLayoutEx extends LinearLayout {
 
+    private OnSoftKeyboardListener onSoftKeyboardListener;
+
     public LinearLayoutEx(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
@@ -13,8 +15,6 @@ public class LinearLayoutEx extends LinearLayout {
     public LinearLayoutEx(Context context) {
         super(context);
     }
-
-    private OnSoftKeyboardListener onSoftKeyboardListener;
 
     @Override
     protected void onMeasure(final int widthMeasureSpec, final int heightMeasureSpec) {
@@ -32,7 +32,7 @@ public class LinearLayoutEx extends LinearLayout {
 
     }
 
-    public final void setOnSoftKeyboardListener(final OnSoftKeyboardListener listener) {
+    public void setOnSoftKeyboardListener(final OnSoftKeyboardListener listener) {
         this.onSoftKeyboardListener = listener;
     }
 

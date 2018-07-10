@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/dialog_view"
-    android:layout_width="wrap_content"
-    android:layout_height="60dp"
-    android:minHeight="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:gravity="center"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:background="@drawable/corner_f4">
+    android:orientation="vertical">
 
-    <ProgressBar
-        android:id="@+id/pb_loading"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_centerInParent="true"
-        style="@style/ProgressStyle"
-        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corner_f4"
+        android:padding="18dp"
+        >
+        <com.umeitime.common.views.SmileView
+            android:id="@+id/smileView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:smileColor="@color/colorPrimary"
+            />
+    </RelativeLayout>
+
     <TextView
         android:id="@+id/tv_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
-        android:textSize="15sp"
-        android:textColor="#aaa"
-        android:text="数据加载中" />
+        android:layout_marginTop="12dp"
+        android:text="数据加载中..."
+        android:textColor="#f4f4f4"
+        android:textSize="15sp" />
+
 </LinearLayout>

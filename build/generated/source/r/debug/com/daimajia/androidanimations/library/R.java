@@ -8,6 +8,6 @@ package com.daimajia.androidanimations.library;
 
 public final class R {
     public static final class string {
-        public static int android_animations_lib_name = 0x7f060032;
+        public static int android_animations_lib_name = 0x7f150020;
     }
 }

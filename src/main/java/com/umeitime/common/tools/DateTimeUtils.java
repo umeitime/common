@@ -1,10 +1,14 @@
 package com.umeitime.common.tools;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * @author June
@@ -14,6 +18,11 @@ import java.util.Date;
  * @description 时间转换工具类
  */
 public class DateTimeUtils {
+    public static final String[] zodiacArr = { "猴", "鸡", "狗", "猪", "鼠", "牛", "虎", "兔", "龙", "蛇", "马", "羊" };
+
+    public static final String[] constellationArr = { "水瓶座", "双鱼座", "白羊座", "金牛座", "双子座", "巨蟹座", "狮子座", "处女座", "天秤座", "天蝎座", "射手座", "魔羯座" };
+
+    public static final int[] constellationEdgeDay = { 20, 19, 21, 21, 21, 22, 23, 23, 23, 23, 22, 22 };
     public static String getDateTime() {
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
         return df.format(new Date());
@@ -75,7 +84,23 @@ public class DateTimeUtils {
             return null;
         }
     }
-
+    public static String strToDate2(String strDate) {
+        try {
+            Date date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss",Locale.CHINA).parse(strDate);
+            String dateTime = new SimpleDateFormat("MM-dd HH:mm",Locale.CHINA).format(date);
+            return dateTime;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return getCurrentDate();
+        }
+    }
+    //获取当前日期
+    public static String getCurrentDate() {
+        Date now = new Date();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd",Locale.CHINA);//可以方便地修改日期格式
+        return dateFormat.format(now);
+    }
     /**
      * 将时间戳转为代表"距现在多久之前"的字符串
      */
@@ -122,36 +147,20 @@ public class DateTimeUtils {
 
     public static String getStandardDate2(String d) {
         try {
-            String str = "";
             Calendar before = Calendar.getInstance();
             Calendar current = Calendar.getInstance();
             before.setTime(str2Date(d));
             current.setTime(new Date());
-            int minutes = current.get(Calendar.MINUTE) - before.get(Calendar.MINUTE);
-            int hours = current.get(Calendar.HOUR_OF_DAY) - before.get(Calendar.HOUR_OF_DAY);
             int days = current.get(Calendar.DATE) - before.get(Calendar.DATE);
-            int year = current.get(Calendar.YEAR) - before.get(Calendar.YEAR);
-            int month = current.get(Calendar.MONTH) - before.get(Calendar.MONTH);
-            String YMD = StringToDate(d, "yyyy-MM-dd");
-            String MD = StringToDate(d, "MM-dd");
-            if (year >0) {
-                str = YMD;
-            } else if (year == 0) {
-               if (days >0 ) {
-                    str = MD;
-                } else if (days == 0) {
-                    if (hours > 0) {
-                        str = hours + "小时前";
-                    } else {
-                        if (minutes > 0) {
-                            str = minutes + "分钟前";
-                        } else {
-                            str = "刚刚";
-                        }
-                    }
-                }
+            String HM = StringToDate(d, "HH:mm");
+            if (days == 0) {
+                return "今天 "+HM;
+            }else if(days==1) {
+                return "昨天 "+HM;
+            }else{
+                int year = current.get(Calendar.YEAR) - before.get(Calendar.YEAR);
+                return StringToDate(d, year==0?"MM-dd HH:mm":"yyyy-MM-dd HH:mm");
             }
-            return str;
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -199,6 +208,67 @@ public class DateTimeUtils {
             // TODO Auto-generated catch block
             e.printStackTrace();
             return "";
+        }
+    }
+    /**
+     * 根据日期获取星座
+     * @return
+     */
+    public static String getConstellation(String datetime) {
+        try {
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA);
+            Date date = dateFormat.parse(datetime);
+            Calendar cal = Calendar.getInstance();
+            cal.setTime(date);
+            int month = cal.get(Calendar.MONTH);
+            int day = cal.get(Calendar.DAY_OF_MONTH);
+            if (day < constellationEdgeDay[month]) {
+                month = month - 1;
+            }
+            if (month >= 0) {
+                return constellationArr[month];
+            }
+            // default to return 魔羯
+            return constellationArr[11];
+        }catch (Exception e){
+
+        }
+        return "未知";
+    }
+    public static int getAge(String date) {
+        Date dateOfBirth = null;
+        int age = 0;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA);
+        try {
+            dateOfBirth = dateFormat.parse(date);
+            Calendar born = Calendar.getInstance();
+            Calendar now = Calendar.getInstance();
+            if (dateOfBirth != null) {
+                now.setTime(new Date());
+                born.setTime(dateOfBirth);
+                if (born.after(now)) {
+                    throw new IllegalArgumentException(
+                            "Can't be born in the future");
+                }
+                age = now.get(Calendar.YEAR) - born.get(Calendar.YEAR);
+                if (now.get(Calendar.DAY_OF_YEAR) < born.get(Calendar.DAY_OF_YEAR)) {
+                    age -= 1;
+                }
+            }
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return age;
+    }
+    public static String strToDate(String strDate) {
+        try {
+            Date date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss",Locale.CHINA).parse(strDate);
+            String dateTime = new SimpleDateFormat("yyyy-MM-dd HH:mm",Locale.CHINA).format(date);
+            return dateTime;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            return getCurrentDate();
         }
     }
 }

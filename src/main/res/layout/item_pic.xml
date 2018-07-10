@@ -9,4 +9,15 @@
         android:layout_height="200dp"
         android:scaleType="centerCrop" />
 
+    <ImageView
+        android:id="@+id/ivCheck"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:clickable="false"
+        android:src="@drawable/ic_check_circle_pressed"
+        android:visibility="gone" />
 </FrameLayout>

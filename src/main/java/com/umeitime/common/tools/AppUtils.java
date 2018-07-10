@@ -31,6 +31,26 @@ import java.util.List;
  */
 
 public class AppUtils {
+    public static final String QQ_PKGNAME = "com.tencent.mobileqq";
+    public static final String WX_PKGNAME = "com.tencent.mm";
+    public static final String KEY_MIUI_VERSION_CODE = "ro.miui.ui.version.code";
+    public static final String KEY_MIUI_VERSION_NAME = "ro.miui.ui.version.name";
+    public static final String KEY_MIUI_INTERNAL_STORAGE = "ro.miui.internal.storage";
+    public static AppUtils instance;
+    public static Context mContext;
+
+    public static AppUtils getInstance(Context context) {
+        mContext = context;
+        if (null == instance) {
+            synchronized (AppUtils.class) {
+                if (null == instance) {
+                    instance = new AppUtils();
+                }
+            }
+        }
+        return instance;
+    }
+
     /**
      * Get version name
      *
@@ -303,16 +323,14 @@ public class AppUtils {
         return localAudioManager.isWiredHeadsetOn();
     }
 
-    public static final String KEY_MIUI_VERSION_CODE = "ro.miui.ui.version.code";
-    public static final String KEY_MIUI_VERSION_NAME = "ro.miui.ui.version.name";
-    public static final String KEY_MIUI_INTERNAL_STORAGE = "ro.miui.internal.storage";
-
     public static boolean isLollipop() {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP;
     }
+
     public static boolean isMarshmallow() {
         return Build.VERSION.SDK_INT >= Build.VERSION_CODES.M;
     }
+
     @SuppressLint("NewApi")
     public static boolean checkDeviceHasNavigationBar(Context activity) {
         boolean hasNavigationBar = false;
@@ -341,7 +359,7 @@ public class AppUtils {
     }
 
     public static String getPhoneImei(Context context) {
-        if(PermissionUtils.checkCallPhonePermission(context))
+        if(PermissionUtils.checkReadPhoneStatePermission(context))
             return ((TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE)).getDeviceId();
         else
             return  "";
@@ -405,6 +423,21 @@ public class AppUtils {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
+    }
+
+    public boolean isAppAvilible(String pkgName) {
+        final PackageManager packageManager = mContext.getPackageManager();// 获取packagemanager
+        List<PackageInfo> pinfo = packageManager.getInstalledPackages(0);// 获取所有已安装程序的包信息
+        if (pinfo != null) {
+            for (int i = 0; i < pinfo.size(); i++) {
+                String pn = pinfo.get(i).packageName;
+                if (pn.equals("com.tencent.mm")) {
+                    return true;
+                }
+            }
+        }
+
+        return false;
     }
 
 }

@@ -21,7 +21,7 @@ public class DecryptInterceptor implements Interceptor {
         BufferedSource source = body.source();
         source.request(Long.MAX_VALUE);
         String content = new String(source.buffer().clone().readString(Charset.forName("UTF-8")));
-        String data = "";
+        String data;
         try {
             data = DES.decryptBasedDes(content);
         }catch (Exception e){

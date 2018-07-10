@@ -8,38 +8,38 @@ package com.chad.library;
 
 public final class R {
     public static final class dimen {
-        public static int def_height = 0x7f070079;
-        public static int dp_10 = 0x7f07009a;
-        public static int dp_4 = 0x7f07009b;
-        public static int dp_40 = 0x7f07009c;
-        public static int dp_72 = 0x7f07009d;
-        public static int sp_12 = 0x7f0700c5;
-        public static int sp_14 = 0x7f0700c6;
-        public static int sp_16 = 0x7f0700c7;
+        public static int def_height = 0x7f080052;
+        public static int dp_10 = 0x7f08007b;
+        public static int dp_4 = 0x7f08007c;
+        public static int dp_40 = 0x7f08007d;
+        public static int dp_72 = 0x7f08007e;
+        public static int sp_12 = 0x7f0800df;
+        public static int sp_14 = 0x7f0800e0;
+        public static int sp_16 = 0x7f0800e1;
     }
     public static final class drawable {
-        public static int sample_footer_loading = 0x7f020075;
-        public static int sample_footer_loading_progress = 0x7f020076;
+        public static int sample_footer_loading = 0x7f090097;
+        public static int sample_footer_loading_progress = 0x7f090098;
     }
     public static final class id {
-        public static int BaseQuickAdapter_databinding_support = 0x7f0c0000;
-        public static int BaseQuickAdapter_dragging_support = 0x7f0c0001;
-        public static int BaseQuickAdapter_swiping_support = 0x7f0c0002;
-        public static int BaseQuickAdapter_viewholder_support = 0x7f0c0003;
-        public static int load_more_load_end_view = 0x7f0c00e7;
-        public static int load_more_load_fail_view = 0x7f0c00e5;
-        public static int load_more_loading_view = 0x7f0c00e2;
-        public static int loading_progress = 0x7f0c00e3;
-        public static int loading_text = 0x7f0c00e4;
-        public static int tv_prompt = 0x7f0c00e6;
+        public static int BaseQuickAdapter_databinding_support = 0x7f0c0004;
+        public static int BaseQuickAdapter_dragging_support = 0x7f0c0005;
+        public static int BaseQuickAdapter_swiping_support = 0x7f0c0006;
+        public static int BaseQuickAdapter_viewholder_support = 0x7f0c0007;
+        public static int load_more_load_end_view = 0x7f0c009b;
+        public static int load_more_load_fail_view = 0x7f0c009c;
+        public static int load_more_loading_view = 0x7f0c009d;
+        public static int loading_progress = 0x7f0c009e;
+        public static int loading_text = 0x7f0c009f;
+        public static int tv_prompt = 0x7f0c0137;
     }
     public static final class layout {
-        public static int quick_view_load_more = 0x7f030051;
+        public static int quick_view_load_more = 0x7f0f0061;
     }
     public static final class string {
-        public static int app_name = 0x7f060033;
-        public static int load_end = 0x7f060021;
-        public static int load_failed = 0x7f060022;
-        public static int loading = 0x7f060023;
+        public static int app_name = 0x7f150021;
+        public static int load_end = 0x7f150028;
+        public static int load_failed = 0x7f150029;
+        public static int loading = 0x7f15002a;
     }
 }
