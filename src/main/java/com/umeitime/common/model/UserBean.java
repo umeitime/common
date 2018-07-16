@@ -10,8 +10,8 @@ import java.io.Serializable;
 
 public class UserBean implements Serializable{
     public int uid;
-    public String unionid="";
-    public String openid="";
+    public String unionId="";
+    public String openId="";
     public String userName="";
     public String userHead="";
     public String userSign = "";

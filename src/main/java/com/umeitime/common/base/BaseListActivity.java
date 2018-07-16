@@ -91,9 +91,9 @@ public abstract class BaseListActivity<P extends BasePresenter, T> extends BaseA
         mSwipeRefreshLayout.setEnabled(canRefresh());
         mRecyclerView.setLayoutManager(getLayoutManager());
         if (hasDivider()) {
-            mRecyclerView.addItemDecoration(new RecyclerViewDivider(mContext,
-                    LinearLayoutManager.HORIZONTAL,
-                    DisplayUtils.dip2px(mContext, 0.4f),
+            mRecyclerView.addItemDecoration(new RecyclerViewDivider(this,
+                    LinearLayoutManager.VERTICAL,
+                    DisplayUtils.dip2px(mContext, 0.6f),
                     ContextCompat.getColor(mContext, R.color.line_color)));
         } else {
             if (getItemDecoration() != null) {

@@ -13,7 +13,7 @@
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_fade_out.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/slide_in_from_bottom.xml",
@@ -21,7 +21,7 @@
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_slide_in_top.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_slide_in_top.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/down_out.xml",
@@ -29,15 +29,15 @@
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/tooltip_enter.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/tooltip_enter.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/tooltip_enter.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_slide_out_top.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/down_enter.xml",
@@ -45,15 +45,15 @@
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/tooltip_exit.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/tooltip_exit.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/tooltip_exit.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d1c789e29adc1bc5f97f2eb5d47f2131/res/anim/design_snackbar_in.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c06118574b386414824ca193cca3b9b4/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_slide_out_bottom.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_slide_out_bottom.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/trm_popup_enter.xml",
@@ -61,31 +61,31 @@
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_slide_in_bottom.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_popup_exit.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_popup_enter.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/4126db7df0915b791a1d6c6566cf6e05/res/anim/abc_fade_in.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/d9c1cf1eaff83ba1e7b8c3ea87a87a94/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d1c789e29adc1bc5f97f2eb5d47f2131/res/anim/design_snackbar_out.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c06118574b386414824ca193cca3b9b4/res/anim/design_snackbar_out.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d1c789e29adc1bc5f97f2eb5d47f2131/res/anim/design_bottom_sheet_slide_out.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c06118574b386414824ca193cca3b9b4/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/slide_in_from_top.xml",
@@ -101,6 +101,6 @@
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d1c789e29adc1bc5f97f2eb5d47f2131/res/anim/design_bottom_sheet_slide_in.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c06118574b386414824ca193cca3b9b4/res/anim/design_bottom_sheet_slide_in.xml"
     }
 ]

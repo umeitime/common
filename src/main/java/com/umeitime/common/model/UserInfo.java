@@ -15,7 +15,7 @@ public class UserInfo extends UserBean {
     public String birthday="";
     public String qq="";
     public int wyCount;
-    public int regType;
+    public int regType;//0手机号 1qq 2微博 3flyme 4微信
     public int fansCount;
     public int followCount;
     public int userState=1;

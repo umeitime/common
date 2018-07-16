@@ -13,8 +13,8 @@ public class BaseCommonValue {
     public static final String Bucket = "umeitime";
     public static String USER_TOKEN = "";
     public static String QINIU_URL = "http://img.umeitime.com";
-//    public static String ROOT_URL = "http://192.168.0.102";
-    public static String ROOT_URL = "http://www.umeitime.com";
+    public static String ROOT_URL = "http://172.16.37.33";
+//    public static String ROOT_URL = "http://www.umeitime.com";
     public static String CHAT_SERVER_URL = ROOT_URL+":9093/";
     public static String API_SERVER_URL = ROOT_URL+":8083/server/";
     public static String APP_URL = "http://www.umeitime.com/weiyu/#/word?id=";

@@ -18,6 +18,6 @@
         android:layout_marginTop="5dp"
         android:background="@null"
         android:clickable="false"
-        android:visibility="gone"
-        android:src="@drawable/ic_check_circle_pressed" />
+        android:src="@drawable/ic_check_circle_pressed"
+        android:visibility="gone" />
 </FrameLayout>

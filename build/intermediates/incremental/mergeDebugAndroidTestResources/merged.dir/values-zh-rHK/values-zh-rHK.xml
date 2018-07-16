@@ -19,6 +19,10 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享對象"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"與「%s」分享"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收合"</string>
+    <string name="durban_controller_title_rotation">旋轉</string>
+    <string name="durban_controller_title_scale">縮放</string>
+    <string name="durban_menu_crop">确定</string>
+    <string name="durban_title_crop">图片裁剪</string>
     <string name="mdtp_date_v1_monthyear">yyyy年M月</string>
     <string msgid="3968620852217927702" name="mdtp_day_picker_description">"日期網格 (按月顯示)"</string>
     <string msgid="6908431551612331381" name="mdtp_deleted_key">"已刪除 <ns1:g id="KEY">%1$s</ns1:g>"</string>

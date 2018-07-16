@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -35,6 +36,7 @@ public abstract class BaseFragment extends Fragment {
     protected Toolbar toolbar;
     protected RelativeLayout appBar;
     protected TextView tvTitle;
+    protected ImageView ivRight;
     protected AppCompatActivity mAppCompatActivity;
     protected Unbinder mUnbinder;
     /**
@@ -89,8 +91,6 @@ public abstract class BaseFragment extends Fragment {
         return mRootView;
     }
 
-    ;
-
     public void hideToolbar() {
         try {
             toolbar = mRootView.findViewById(R.id.toolbar);
@@ -100,7 +100,11 @@ public abstract class BaseFragment extends Fragment {
 
         }
     }
-
+    public void initIvRight(int res){
+        ivRight = mRootView.findViewById(R.id.ivRight);
+        ivRight.setImageResource(res);
+        ivRight.setVisibility(View.VISIBLE);
+    }
     public Toolbar initToolbar() {
         toolbar = mRootView.findViewById(R.id.toolbar);
         appBar = mRootView.findViewById(R.id.rlAppBar);

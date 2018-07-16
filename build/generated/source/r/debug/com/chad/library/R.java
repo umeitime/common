@@ -13,33 +13,33 @@ public final class R {
         public static int dp_4 = 0x7f08007c;
         public static int dp_40 = 0x7f08007d;
         public static int dp_72 = 0x7f08007e;
-        public static int sp_12 = 0x7f0800df;
-        public static int sp_14 = 0x7f0800e0;
-        public static int sp_16 = 0x7f0800e1;
+        public static int sp_12 = 0x7f0800e6;
+        public static int sp_14 = 0x7f0800e7;
+        public static int sp_16 = 0x7f0800e8;
     }
     public static final class drawable {
-        public static int sample_footer_loading = 0x7f090097;
-        public static int sample_footer_loading_progress = 0x7f090098;
+        public static int sample_footer_loading = 0x7f09009e;
+        public static int sample_footer_loading_progress = 0x7f09009f;
     }
     public static final class id {
         public static int BaseQuickAdapter_databinding_support = 0x7f0c0004;
         public static int BaseQuickAdapter_dragging_support = 0x7f0c0005;
         public static int BaseQuickAdapter_swiping_support = 0x7f0c0006;
         public static int BaseQuickAdapter_viewholder_support = 0x7f0c0007;
-        public static int load_more_load_end_view = 0x7f0c009b;
-        public static int load_more_load_fail_view = 0x7f0c009c;
-        public static int load_more_loading_view = 0x7f0c009d;
-        public static int loading_progress = 0x7f0c009e;
-        public static int loading_text = 0x7f0c009f;
-        public static int tv_prompt = 0x7f0c0137;
+        public static int load_more_load_end_view = 0x7f0c00a3;
+        public static int load_more_load_fail_view = 0x7f0c00a4;
+        public static int load_more_loading_view = 0x7f0c00a5;
+        public static int loading_progress = 0x7f0c00a6;
+        public static int loading_text = 0x7f0c00a7;
+        public static int tv_prompt = 0x7f0c0142;
     }
     public static final class layout {
-        public static int quick_view_load_more = 0x7f0f0061;
+        public static int quick_view_load_more = 0x7f0f0063;
     }
     public static final class string {
         public static int app_name = 0x7f150021;
-        public static int load_end = 0x7f150028;
-        public static int load_failed = 0x7f150029;
-        public static int loading = 0x7f15002a;
+        public static int load_end = 0x7f15002c;
+        public static int load_failed = 0x7f15002d;
+        public static int loading = 0x7f15002e;
     }
 }

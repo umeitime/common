@@ -24,8 +24,8 @@
     <View
         android:id="@+id/line"
         android:layout_width="match_parent"
-        android:layout_alignParentBottom="true"
         android:layout_height="@dimen/line_height"
+        android:layout_alignParentBottom="true"
         android:background="@color/line_color" />
     <TextView
         android:id="@+id/tvRight"
@@ -37,7 +37,16 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:text="right"
-        android:visibility="gone"
         android:textColor="@color/colorAccent"
-        android:textSize="15dp"/>
+        android:textSize="15dp"
+        android:visibility="gone"/>
+    <ImageView
+        android:id="@+id/ivRight"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentRight="true"
+        android:background="?actionBarItemBackground"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:visibility="gone"/>
 </RelativeLayout>

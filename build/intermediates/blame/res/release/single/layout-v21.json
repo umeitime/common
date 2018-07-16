@@ -1,18 +1,18 @@
 [
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9d676c6b4cdffd257a7bdac1fbe410f7/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8cce228f6adef9a355671c03a6ef4211/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9d676c6b4cdffd257a7bdac1fbe410f7/res/layout-v21/notification_action.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8cce228f6adef9a355671c03a6ef4211/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9d676c6b4cdffd257a7bdac1fbe410f7/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8cce228f6adef9a355671c03a6ef4211/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/hujunwei/Desktop/AndroidStudioProjects/WorkProgrom/umeitime/common/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/9d676c6b4cdffd257a7bdac1fbe410f7/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/hujunwei/mywork/android/gradle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8cce228f6adef9a355671c03a6ef4211/res/layout-v21/notification_template_icon_group.xml"
     }
 ]
